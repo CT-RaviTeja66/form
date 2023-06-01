@@ -1,0 +1,91 @@
+
+.container{
+    background-color: white;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.marginers{
+    margin-top: 20px;
+}
+
+
+.userErrorMsg{
+    color: red;
+    font-family: Roboto;
+    font-size: 500;
+}
+
+.errorMsg{
+    border-color: red;
+    border-radius: 4px solid;
+}
+
+.errorMsgcl{
+    border-color: green;
+    border-radius: 10px solid;
+}
+
+.passErrorMsg{
+    color: red;
+    font-family: Roboto;
+    font-size: 500;
+}
+
+.conPassErrorMsg{
+    color: red;
+    font-family: Roboto;
+    font-size: 500;
+}
+.eye-icon{
+    float: right;
+    margin-top: -25px;
+    margin-right: 7px;
+}
+
+@media (min-width: 1024px){
+    .container{
+        background-color: white;
+        height: 100vh;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1746px){
+    .container{
+        background-color: white;
+        height: 100vh;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1746px){
+    .container{
+        background-color: white;
+        height: 100vh;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+*body{
+    border: 5px solid red;
+}
